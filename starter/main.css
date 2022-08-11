@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* footer sction starts here */
+/* reusable starts here */
+span a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+button a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+/* reusable ends here */
+
+
+footer{
+    background: var(--main-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    align-items: center;
+}
+.footer-copyright{
+    /* border: 3px solid white;
+    height: 60px;
+    width: 200px; */
+    color: var(--white-color);
+    align-self: center;
+}
+.footer-icon__holder{
+    /* border: 3px solid white;
+    height: 60px;
+    width: 200px; */
+    display: flex;
+}
+/* .footer-icon__holder{
+    border: 3px solid white;
+    height: 60px;
+    width: 200px;
+} */
+.footer-button__holder{
+    /* border: 3px solid white;
+    height: 60px;
+    width: 200px; */
+}
+
+.footer-icons{
+    color: var(--white-color);
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--white-color);
+    border-radius: 50%;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+.footer-icons:hover{
+    background: var(--main-color-dark);
+}
+.footer-button__holder button{
+    padding: 15px 20px;
+    background: transparent;
+    border: 2px solid var(--white-color);
+    color:var(--white-color)
+}
+.footer-button__holder button:hover{
+    background: var(--main-color-dark);
+}
+
+
+/* footer sction ends here */
