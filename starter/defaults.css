@@ -3,7 +3,7 @@
     --main-color-light: rgba(168, 45, 73, 0.8);
     --main-color-dark: #43121d;
     --text-color: #777;
-    --light-text-color: rgb(119, 119, 119, 0.3);
+    --light-text-color: rgb(119, 119, 119, 0.1);
     --white-color: #fff;
     --black-color: #000;
     --gradient: linear-gradient(to right, rgba(168, 45, 73, 0.5), rgba(228, 77, 38, .05));
